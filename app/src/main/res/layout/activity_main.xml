@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="30dp"
+
+    >
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_BTN_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        app:iconSize="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="190dp"
+        android:layout_marginLeft="16dp"
+        app:icon="@drawable/right"
+        />
+
+    <!-- Right Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_BTN_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/left"
+        app:iconSize="40dp"
+        android:layout_toEndOf="@id/main_BTN_left"
+        android:layout_toRightOf="@id/main_BTN_left"
+        android:layout_alignBaseline="@id/main_BTN_left"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="120dp"
+    android:layout_height="40dp"
+    android:layout_marginTop="16dp"
+    android:layout_alignParentRight="true"
+    android:layout_marginEnd="16dp"
+    >
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_IMG_heart1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/heart"
+        android:layout_weight="1"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_IMG_heart2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        app:srcCompat="@drawable/heart"
+        android:layout_weight="1"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_IMG_heart3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/heart"
+        android:layout_weight="1"
+        />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="230dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_car1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/car" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_car2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/car" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_car3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/car" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="126dp"
+    android:layout_height="560dp"
+    android:orientation="vertical"
+    android:layout_marginTop="60dp"
+    android:layout_marginStart="16dp"
+
+    >
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_IMG_cube1"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cube"
+        android:layout_weight="1"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_IMG_cube2"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cube"
+        android:layout_weight="1"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_IMG_cube3"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cube"
+        android:layout_weight="1"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_IMG_cube4"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cube"
+        android:layout_weight="1"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_IMG_cube5"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cube"
+        android:layout_weight="1"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="126dp"
+        android:layout_height="560dp"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="144dp"
+
+        >
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_IMG_cube6"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cube"
+        android:layout_weight="1"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_IMG_cube7"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cube"
+        android:layout_weight="1"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_IMG_cube8"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cube"
+        android:layout_weight="1"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_IMG_cube9"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cube"
+        android:layout_weight="1"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_IMG_cube10"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cube"
+        android:layout_weight="1"
+        />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="126dp"
+        android:layout_height="560dp"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="270dp"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_cube11"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cube"
+            android:layout_weight="1"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_cube12"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cube"
+            android:layout_weight="1"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_cube13"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cube"
+            android:layout_weight="1"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_cube14"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cube"
+            android:layout_weight="1"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_cube15"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cube"
+            android:layout_weight="1"
+            />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>
